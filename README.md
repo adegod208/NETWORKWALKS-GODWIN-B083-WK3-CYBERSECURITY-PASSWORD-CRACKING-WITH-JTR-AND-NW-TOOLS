@@ -1,4 +1,3 @@
-# NETWORKWALKS-GODWIN-B083-WK3-CYBERSECURITY-PASSWORD-CRACKING-WITH-JTR-AND-NW-TOOLS
 # NETWORKWALKS-B083-WK3-CYBERSECURITY-PASSWORD-CRACKING
  
 Week 3 cybersecurity labs focused on password security — covering hash extraction from password-protected PDFs and dictionary attacks using John the Ripper and Networkwalks' web-based tools.
