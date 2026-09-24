@@ -59,7 +59,7 @@ Copied the extracted hash into a local text file, `hash1.txt`, so it could be fe
  
 The attack finished with a **100% success rate (1/1 cracked, 0 remaining)**.
  
-![Password Cracked in Johnny]()
+![Password Cracked in Johnny](cracked_password.png)
  
 | User | Password | Hash (truncated) | Format |
 |------|----------|-------------------|--------|
