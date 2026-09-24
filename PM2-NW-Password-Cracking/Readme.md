@@ -40,7 +40,7 @@ Used the recovered password to open the PDF and grabbed the flag for this module
  
 **Problem: the default wordlist wasn't big enough**
 Reusing the hash already extracted for `PDF1` back in PM1, I ran the same 100-word built-in list against it. All 100 candidates were tried with no match — access denied.
- 
+ ![](Access_denied.png)
 This wasn't a broken hash or a broken tool; the wordlist just didn't happen to contain the real password. The cracker even suggested the next move itself: try a bigger list.
  
 **Fix: swap in a much larger wordlist**
