@@ -50,7 +50,7 @@ The correct password was found near the end of the run, at roughly 97% progress 
   ![](passsword_matched.png)
 This matched the password recovered for the identical hash back in PM1 using John the Ripper / Johnny — a nice confirmation that two independent tools agree on the answer.
  
-##🧠 Key Takeaways
+## 🧠Key Takeaways
 - Networkwalks' Hash Calculator can generate a `pdf2john`-compatible hash entirely client-side — no need to upload the target file anywhere.
 - A dictionary attack is only as good as the list behind it. A failed attempt doesn't mean the method or tool is broken — it just means the right word wasn't in the list.
 - Scaling the wordlist from 100 entries to 3,500+ turned a hard "access denied" into a successful crack.
