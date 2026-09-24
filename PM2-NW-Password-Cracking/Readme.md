@@ -18,8 +18,7 @@ This lab demonstrates an end-to-end, browser-only workflow for recovering the pa
 | [Networkwalks Password Cracker](https://networkwalks.com/password-cracker/) | Runs a dictionary attack against a pasted hash |
 | OS | Windows |
  
-**Target files:** `My Locked PDF1.pdf`, `My Locked PDF2.pdf`
- 
+**Target files:** `My Locked PDF3.pdf`
 ## Walkthrough
  
 ### Part A — Cracking `My Locked PDF2.pdf`
@@ -48,7 +47,7 @@ Uploaded `JTR_default_password.txt`, a list of 3,500+ candidate passwords, and r
  
 **Result**
 The correct password was found near the end of the run, at roughly 97% progress (3,456 of 3,556 words tried): `good-luck`.
- 
+  ![](passsword_matched.png)
 This matched the password recovered for the identical hash back in PM1 using John the Ripper / Johnny — a nice confirmation that two independent tools agree on the answer.
  
 ## Key Takeaways
