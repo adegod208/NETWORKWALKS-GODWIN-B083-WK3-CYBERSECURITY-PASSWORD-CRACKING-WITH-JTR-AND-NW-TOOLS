@@ -1,11 +1,11 @@
-# 🔐PM2 – Cracking PDF Passwords with Networkwalks' Hash Calculator & Password Cracker
+## 🔐PM2 – Cracking PDF Passwords with Networkwalks' Hash Calculator & Password Cracker
  
-##📋Overview
+## 📋Overview
 This lab demonstrates an end-to-end, browser-only workflow for recovering the password on a locked PDF. Instead of installing a local tool like John the Ripper, everything is done through two free web utilities from Networkwalks:
  
 - **Hash Calculator** – pulls a `pdf2john` / hashcat-style hash out of an encrypted PDF, processed locally in the browser.
 - **Password Cracker** – runs a dictionary attack against that hash using a wordlist of your choice.
-##🎯 Goals
+## 🎯 Goals
 - Pull a crackable hash out of a password-protected PDF using the Hash Calculator.
 - Run that hash through the Password Cracker's dictionary attack.
 - See firsthand how much the size and quality of a wordlist affects whether a crack succeeds.
@@ -21,10 +21,10 @@ This lab demonstrates an end-to-end, browser-only workflow for recovering the pa
 **Target files:** 🎯 `My Locked PDF3.pdf`
 ## Walkthrough
  
-### Part A — Cracking `My Locked PDF2.pdf`
+### Part A — Cracking `My Locked PDF3.pdf`
  🔍 Methodology
 **1. Pull the hash**
-Loaded `My Locked PDF2.pdf` into the Hash Calculator's PDF tab. Since parsing happens entirely client-side, the file never left the browser. The tool returned an encrypted hash in `pdf2john`/hashcat format (Revision R4, Version V4, 128-bit key).
+Loaded `My Locked PDF3.pdf` into the Hash Calculator's PDF tab. Since parsing happens entirely client-side, the file never left the browser. The tool returned an encrypted hash in `pdf2john`/hashcat format (Revision R4, Version V4, 128-bit key).
  ![](hash_calculator.png)
 **2. Attack the hash**
 Copied the hash into the Password Cracker and kicked off a dictionary attack using the tool's built-in 100-word list. Under the hood this works the same way John the Ripper does: hash each candidate word and compare it to the target hash.
