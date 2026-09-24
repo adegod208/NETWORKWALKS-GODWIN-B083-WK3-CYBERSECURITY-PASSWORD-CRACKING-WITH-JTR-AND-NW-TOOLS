@@ -44,7 +44,7 @@ Instead of setting up a local Python/Perl environment, I used the browser-based 
  
 Copied the extracted hash into a local text file, `hash1.txt`, so it could be fed straight into Johnny.
  
-![Hash Saved to File](attach-your-image-link-here)
+![Hash Saved to File](hash_file.png)
  
 ### 4️⃣ Load the hash into Johnny
  
@@ -59,7 +59,7 @@ Copied the extracted hash into a local text file, `hash1.txt`, so it could be fe
  
 The attack finished with a **100% success rate (1/1 cracked, 0 remaining)**.
  
-![Password Cracked in Johnny](attach-your-image-link-here)
+![Password Cracked in Johnny]()
  
 | User | Password | Hash (truncated) | Format |
 |------|----------|-------------------|--------|
