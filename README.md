@@ -8,8 +8,8 @@ This week's training centered on understanding how weak passwords and outdated h
  
 ## 📂 Modules
  
-- [PM1 - JTR Password Cracking]()
-- [PM2 - Networkwalks Password Cracker]()
+- [PM1 - JTR Password Cracking](PM1-JTR-Password-Cracking)
+- [PM2 - Networkwalks Password Cracker](PM2-NW-Password-Cracking)
 ## 🛠️ Tools Used
  
 - **John the Ripper (JTR)** — command-line password cracking tool used for dictionary attacks
