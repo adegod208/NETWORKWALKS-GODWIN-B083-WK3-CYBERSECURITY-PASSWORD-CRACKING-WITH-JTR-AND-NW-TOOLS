@@ -26,7 +26,7 @@ This lab demonstrates an end-to-end, browser-only workflow for recovering the pa
  
 **1. Pull the hash**
 Loaded `My Locked PDF2.pdf` into the Hash Calculator's PDF tab. Since parsing happens entirely client-side, the file never left the browser. The tool returned an encrypted hash in `pdf2john`/hashcat format (Revision R4, Version V4, 128-bit key).
- ![](path-or-url-to-image)
+ ![](hash_calculator.png)
 **2. Attack the hash**
 Copied the hash into the Password Cracker and kicked off a dictionary attack using the tool's built-in 100-word list. Under the hood this works the same way John the Ripper does: hash each candidate word and compare it to the target hash.
  
