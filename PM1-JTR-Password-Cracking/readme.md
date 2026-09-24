@@ -68,8 +68,8 @@ The attack finished with a **100% success rate (1/1 cracked, 0 remaining)**.
 ### 7️⃣ Open the PDF and grab the flag
  
 Using the cracked password to unlock `My Locked PDF1.pdf` revealed **Flag1** for this module.
- 
-![Flag Captured](attach-your-image-link-here)
+![Flag Captured](locked_password.png)
+![Flag Captured](Locked_pdf.png)
  
 ## 🧠 Key Takeaways
  
