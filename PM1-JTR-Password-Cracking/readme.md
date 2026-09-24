@@ -4,12 +4,12 @@
  
 This module walks through recovering the password on a locked PDF file using **John the Ripper (JTR)**, operated through its graphical interface, **Johnny**, on Windows. The exercise involved pulling a hash out of the encrypted PDF, feeding that hash into JTR, and cracking it to reveal the original password.
  
-![JTR](attach-your-image-link-here)
+![JTR](John_the_Ripper.png)
  
 ## 🎯 Objective
  
 - Understand how a password-protected PDF stores its protection internally as a hash
-- Extract that hash using a PDF-to-hash conversion tool (pdf2john)
+- Extract that hash using a PDF-to-hash conversion tool (pdf1 john)
 - Run a cracking attack against the extracted hash using John the Ripper via the Johnny GUI
 - Recover the plaintext password and capture the module's flag
 ## 🛠️ Tools & Environment
@@ -36,7 +36,7 @@ Instead of setting up a local Python/Perl environment, I used the browser-based 
  
 - Uploaded `My Locked PDF1.pdf` to the tool
 - Got back a hash string in the standard `pdf...` format
-![PDF Hash Extraction](attach-your-image-link-here)
+![PDF Hash Extraction](Hash_txt_extractor.png)
  
 > ⚠️ **A note on trust:** Sending a file to a third-party web tool means its contents leave your machine and go to an external server. This particular tool states it deletes uploads immediately without storing them, which made it fine for a training exercise — but this shortcut isn't something you'd want to rely on for sensitive or real-world documents. In an actual engagement, run `pdf2john.pl` locally instead.
  
